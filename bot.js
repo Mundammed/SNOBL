@@ -10,7 +10,7 @@ richusir
 /
 RICHUSER_B1
 Public
-forked from richusir/RICHUSER_B1
+forked from richusir/SNOBL
 0
 1121
 Code
@@ -276,7 +276,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please wait.')}`);
                                     'Gerçekleşen Hata: ' + error + '\n\n'
                                     , MessageType.text);
                             } else {
-                                await conn.sendMessage(conn.user.jid, 'RICHUSERBOT_🐱_[error] ' +
+                                await conn.sendMessage(conn.user.jid, 'SNOBL_🐱_[error] ' +
                                     '\n\n*👻 ' + error + '*\n'
                                     , MessageType.text);
                             }
